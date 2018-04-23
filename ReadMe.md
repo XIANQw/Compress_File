@@ -1,8 +1,8 @@
 # TP8 Huffman
 
 ## AUTEURS :
-- XIAN Qiwei
-- CHANE-SING-GUAN Raphael
+- XIAN
+- Raphael
 
 
 # Codage de Huffman
