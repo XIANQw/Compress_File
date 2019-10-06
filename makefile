@@ -13,8 +13,8 @@ SRC = $(wildcard ${DIR_SRC}/*.c)
 OBJ = $(patsubst %.c,  ${DIR_OBJ}/%.o, $(notdir ${SRC}))
 TARGET = $(patsubst %.o,  ${DIR_BIN}/%, $(notdir ${OBJ}))
 
-all: ${EXEC} 
-	
+all: ${EXEC}
+
 
 $(DIR_OUTPUT)/%.pdf: $(DIR_OUTPUT)%.dot
 	@echo "Creating the tree $@"
@@ -61,4 +61,3 @@ clean:
 	$(RM) $(DIR_BIN)/* $(DIR_OBJ)/*.o
 	$(RM) $(DIR_OUTPUT)/*
 	$(RM) *.txt
-
