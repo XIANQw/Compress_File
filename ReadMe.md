@@ -7,7 +7,8 @@
 
 # Codage de Huffman
 
-L'objectif de ce project est d'implémenter le codage de Huffman en C. Vous avez déjà vu cet algorithme (en Python) le semestre dernier dans le cadre de l'UE Codage. Les trois points principaux que ce TP va nous permettre de travailler sont
+L'objectif de ce project est d'implémenter le codage de Huffman en C. 
+Les trois points principaux que ce projet va nous permettre de travailler sont
 - 1-les structures autoréférentes 
 - 2-l'utilisation des paramètres du main
 - 3-la manipulation des nombres binaires. Nous y consacrerons 3 séances.
